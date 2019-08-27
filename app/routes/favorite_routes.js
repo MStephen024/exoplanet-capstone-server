@@ -60,7 +60,7 @@ router.patch('/favorites/:id', requireToken, removeBlanks, (req, res, next) => {
     .catch(next)
 })
 
-// DESTROY
+// DELETE
 router.delete('/favorites/:id', requireToken, (req, res, next) => {
   Favorite.findById(req.params.id)
     .then(handle404)
