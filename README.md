@@ -112,6 +112,4 @@ handle everything and once the state was updated I had completed my Exoplanet pr
 
 ## Acknowledgments
 
-* Patience
-* Breaks
-* Jordan - 4th 'Member'
+* NASA
