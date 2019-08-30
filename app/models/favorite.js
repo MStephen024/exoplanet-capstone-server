@@ -1,9 +1,18 @@
 const mongoose = require('mongoose')
 
 const favoriteSchema = new mongoose.Schema({
-  nasa_id: {
-    type: Number,
-    required: true
+  pl_name: {
+    type: String
+  },
+  pl_disc: String,
+  pl_facility: {
+    type: String
+  },
+  pl_discmethod: {
+    type: String
+  },
+  pl_massj: {
+    type: String
   },
   tags: {
     type: String,
