@@ -53,7 +53,6 @@ router.patch('/favorites/:id', requireToken, removeBlanks, (req, res, next) => {
     .then(handle404)
     .then(favorite => {
       requireOwnership(req, favorite)
-
       return favorite.update(req.body.favorite)
     })
     .then(() => res.sendStatus(204))

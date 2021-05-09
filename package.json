@@ -2,7 +2,7 @@
   "name": "exoplanet-capstone",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "mocha --exit",
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "bcrypt": "^3.0.3",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",

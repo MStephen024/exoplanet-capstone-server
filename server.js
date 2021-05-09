@@ -6,6 +6,7 @@ const cors = require('cors')
 
 // require route files
 const exampleRoutes = require('./app/routes/example_routes')
+const exoplanetRoutes = require('./app/routes/exoplanet_routes')
 const favoriteRoutes = require('./app/routes/favorite_routes')
 const userRoutes = require('./app/routes/user_routes')
 
@@ -60,6 +61,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 // register route files
 app.use(exampleRoutes)
+app.use(exoplanetRoutes)
 app.use(favoriteRoutes)
 app.use(userRoutes)
 
