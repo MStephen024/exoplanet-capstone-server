@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
 const favoriteSchema = new mongoose.Schema({
+  // Note: Check if you can change this object below to just be a key/value of pl_name:String, like pl_disc
   pl_name: {
     type: String
   },
